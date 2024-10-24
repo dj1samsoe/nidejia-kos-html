@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nidejia - BuildWithAngga Templates</title>
+    <link rel="icon" href="./assets/logo-nidejia.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Puritan:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#FF9357",
+              header: "#141414",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <header
+      class="w-[90%] flex justify-between items-center py-6 px-[30px] bg-header fixed z-20 top-8 mx-auto rounded-2xl"
+    >
+      <div class="flex gap-2 items-center">
+        <img src="./assets/logo-nidejia.svg" alt="logo" class="w-10 h-10" />
+        <span class="text-2xl font-semibold text-white">Nidejia</span>
+      </div>
+      <nav class="flex gap-2 items-center">
+        <a
+          href="#"
+          class="text-md font-semibold text-white px-4 py-2 rounded-lg hover:bg-neutral-800 transition-all"
+          >Featured</a
+        >
+        <a
+          href="#"
+          class="text-md font-semibold text-white px-4 py-2 rounded-lg hover:bg-neutral-800 transition-all"
+          >Categories</a
+        >
+        <a
+          href="#"
+          class="text-md font-semibold text-white px-4 py-2 rounded-lg hover:bg-neutral-800 transition-all"
+          >Testimonials</a
+        >
+        <a
+          href="#"
+          class="text-md font-semibold text-white px-4 py-2 rounded-lg hover:bg-neutral-800 transition-all"
+          >About</a
+        >
+      </nav>
+      <div class="flex gap-3 items-center">
+        <button
+          class="bg-[#323437] rounded-full text-white px-6 py-3 font-semibold"
+        >
+          Sign In
+        </button>
+        <button
+          class="bg-primary rounded-full text-[#141414] px-6 py-3 font-semibold"
+        >
+          Sign Up
+        </button>
+      </div>
+    </header>
+    <main class="w-full h-full flex flex-col items-center justify-center">
+      <!-- Banner Section -->
+      <section
+        class="w-full h-full bg-[url(./assets/hero-background.png)] bg-cover bg-center"
+      >
+        <div
+          class="w-full min-h-screen bg-gradient-to-r from-black via-black/80 to-transparent flex items-end justify-start px-20 py-32 max-w-[760px]"
+        >
+          <div class="flex flex-col space-y-12 items-start justify-center">
+            <div class="flex flex-col space-y-4 items-start">
+              <h1 class="text-6xl font-bold text-white leading-snug">
+                Find Glorious Living And Loving Space
+              </h1>
+              <p class="text-lg text-white max-w-md leading-8">
+                Dolor house comfortable si amet with cheap price that also lorem
+                when you need grow.
+              </p>
+            </div>
+            <div class="w-full bg-[#141414] rounded-full flex items-center">
+              <input
+                type="search"
+                placeholder="Search by city or country..."
+                class="w-full rounded-s-full text-xl px-[30px] py-[20px] text-white bg-[#141414]"
+              />
+              <button
+                class="bg-primary hover:bg-primary/80 transition-all text-[#010101] rounded-e-full font-semibold text-xl px-[30px] py-[20px]"
+              >
+                Explore
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Value Section -->
+      <div
+        class="w-[90%] py-6 px-[30px] bg-header mx-auto rounded-2xl -mt-10 z-10"
+      >
+        <div class="w-full flex items-center justify-between">
+          <div class="flex gap-4 items-center">
+            <img
+              src="./assets/house-2.svg"
+              alt="logo"
+              class="w-16 h-16 p-4 rounded-full bg-primary text-black flex items-center justify-center"
+            />
+            <div class="flex flex-col items-start">
+              <h2 class="text-white font-bold text-3xl">382M</h2>
+              <p class="text-[#A8A8AB] font-normal">Kos Available</p>
+            </div>
+          </div>
+          <span class="h-[70px] w-[1px] bg-neutral-700"></span>
+          <div class="flex gap-4 items-center">
+            <img
+              src="./assets/profile-2user.svg"
+              alt="logo"
+              class="w-16 h-16 p-4 rounded-full bg-primary text-black flex items-center justify-center"
+            />
+            <div class="flex flex-col items-start">
+              <h2 class="text-white font-bold text-3xl">9/10</h2>
+              <p class="text-[#A8A8AB] font-regular">People Happy</p>
+            </div>
+          </div>
+          <span class="h-[70px] w-[1px] bg-neutral-700"></span>
+          <div class="flex gap-4 items-center">
+            <img
+              src="./assets/security-user.svg"
+              alt="logo"
+              class="w-16 h-16 p-4 rounded-full bg-primary text-black flex items-center justify-center"
+            />
+            <div class="flex flex-col items-start">
+              <h2 class="text-white font-bold text-3xl">100%</h2>
+              <p class="text-[#A8A8AB] font-regular">High Security</p>
+            </div>
+          </div>
+          <span class="h-[70px] w-[1px] bg-neutral-700"></span>
+          <div class="flex gap-4 items-center">
+            <img
+              src="./assets/global.svg"
+              alt="logo"
+              class="w-16 h-16 p-4 rounded-full bg-primary text-black flex items-center justify-center"
+            />
+            <div class="flex flex-col items-start">
+              <h2 class="text-white font-bold text-3xl">183</h2>
+              <p class="text-[#A8A8AB] font-regular">Countries</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Latest Deals Section -->
+      <section class="w-full flex flex-col items-center py-40 px-20">
+        <div class="flex flex-col gap-2 items-center">
+          <h2 class="text-3xl text-white font-bold text-center">
+            Our Latest Deals
+          </h2>
+          <p class="text-lg font-regular text-[#A8A8AB]">
+            Explore the beauty of architecture and living love
+          </p>
+        </div>
+        <div class="w-full grid grid-cols-4 gap-8 mt-[30px] relative">
+          <button
+            class="p-4 rounded-full absolute z-10 top-20 -left-7 bg-header text-white"
+          >
+            <img src="./assets/arrow-left.svg" alt="arrow" class="w-6 h-6" />
+          </button>
+          <div class="relative">
+            <img
+              src="./assets/image 2.png"
+              alt="card-image"
+              class="w-full h-[350px] object-cover rounded-3xl"
+            />
+            <div
+              class="absolute z-10 bottom-0 left-0 right-0 bg-gradient-to-t from-[#050211] from-35% to-transparent p-5 rounded-2xl"
+            >
+              <div class="text-white flex flex-col space-y-4">
+                <div class="flex items-center justify-between">
+                  <div class="flex flex-col space-y-1 items-start">
+                    <h3 class="text-xl font-bold">De Flecce</h3>
+                    <p class="text-sm font-semibold">
+                      $47,298<span class="font-normal">/mo</span>
+                    </p>
+                  </div>
+                  <div class="flex gap-1 items-center">
+                    <img
+                      src="./assets/star.svg"
+                      alt="star-icon"
+                      class="w-5 h-5"
+                    />
+                    <span> 4.5/5 </span>
+                  </div>
+                </div>
+                <div class="flex items-center justify-between text-sm">
+                  <div class="flex gap-1 items-center">
+                    <img
+                      src="./assets/format-square.svg"
+                      alt="format-icon"
+                      class="w-5 h-5"
+                    />
+                    <span> 529 sqft</span>
+                  </div>
+                  <div class="flex gap-1 items-center">
+                    <img
+                      src="./assets/profile-2user-card.svg"
+                      alt="user-icon"
+                      class="w-5 h-5"
+                    />
+                    <span>3</span>
+                  </div>
+                  <div class="flex gap-1 items-center">
+                    <img
+                      src="./assets/wifi.svg"
+                      alt="wifi-icon"
+                      class="w-5 h-5"
+                    />
+                    <span> 10gb </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="relative">
+            <img
+              src="./assets/image 3.png"
+              alt="card-image"
+              class="w-full h-[350px] object-cover rounded-3xl"
+            />
+            <div
+              class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-[#050211] from-35% to-transparent p-5 rounded-2xl"
+            >
+              <div class="text-white flex flex-col space-y-4">
+                <div class="flex items-center justify-between">
+                  <div class="flex flex-col space-y-1 items-start">
+                    <h3 class="text-xl font-bold">Party Every</h3>
+                    <p class="text-sm font-semibold">
+                      $18,983<span class="font-normal">/mo</span>
+                    </p>
+                  </div>
+                  <div class="flex gap-1 items-center">
+                    <img
+                      src="./assets/star.svg"
+                      alt="star-icon"
+                      class="w-5 h-5"
+                    />
+                    <span> 4.5/5 </span>
+                  </div>
+                </div>
+                <div class="flex items-center justify-between text-sm">
+                  <div class="flex gap-1 items-center">
+                    <img
+                      src="./assets/format-square.svg"
+                      alt="format-icon"
+                      class="w-5 h-5"
+                    />
+                    <span> 529 sqft</span>
+                  </div>
+                  <div class="flex gap-1 items-center">
+                    <img
+                      src="./assets/profile-2user-card.svg"
+                      alt="user-icon"
+                      class="w-5 h-5"
+                    />
+                    <span>3</span>
+                  </div>
+                  <div class="flex gap-1 items-center">
+                    <img
+                      src="./assets/wifi.svg"
+                      alt="wifi-icon"
+                      class="w-5 h-5"
+                    />
+                    <span> 10gb </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="relative">
+            <img
+              src="./assets/image 4.png"
+              alt="card-image"
+              class="w-full h-[350px] object-cover rounded-3xl"
+            />
+            <div
+              class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-[#050211] from-35% to-transparent p-5 rounded-2xl"
+            >
+              <div class="text-white flex flex-col space-y-4">
+                <div class="flex items-center justify-between">
+                  <div class="flex flex-col space-y-1 items-start">
+                    <h3 class="text-xl font-bold">Brown Hall</h3>
+                    <p class="text-sm font-semibold">
+                      $84,209<span class="font-normal">/mo</span>
+                    </p>
+                  </div>
+                  <div class="flex gap-1 items-center">
+                    <img
+                      src="./assets/star.svg"
+                      alt="star-icon"
+                      class="w-5 h-5"
+                    />
+                    <span> 4.5/5 </span>
+                  </div>
+                </div>
+                <div class="flex items-center justify-between text-sm">
+                  <div class="flex gap-1 items-center">
+                    <img
+                      src="./assets/format-square.svg"
+                      alt="format-icon"
+                      class="w-5 h-5"
+                    />
+                    <span> 529 sqft</span>
+                  </div>
+                  <div class="flex gap-1 items-center">
+                    <img
+                      src="./assets/profile-2user-card.svg"
+                      alt="user-icon"
+                      class="w-5 h-5"
+                    />
+                    <span>3</span>
+                  </div>
+                  <div class="flex gap-1 items-center">
+                    <img
+                      src="./assets/wifi.svg"
+                      alt="wifi-icon"
+                      class="w-5 h-5"
+                    />
+                    <span> 10gb </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="relative">
+            <img
+              src="./assets/image 5.png"
+              alt="card-image"
+              class="w-full h-[350px] object-cover rounded-3xl"
+            />
+            <div
+              class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-[#050211] from-35% to-transparent p-5 rounded-2xl"
+            >
+              <div class="text-white flex flex-col space-y-4">
+                <div class="flex items-center justify-between">
+                  <div class="flex flex-col space-y-1 items-start">
+                    <h3 class="text-xl font-bold">Mini Max</h3>
+                    <p class="text-sm font-semibold">
+                      $14,221<span class="font-normal">/mo</span>
+                    </p>
+                  </div>
+                  <div class="flex gap-1 items-center">
+                    <img
+                      src="./assets/star.svg"
+                      alt="star-icon"
+                      class="w-5 h-5"
+                    />
+                    <span> 4.5/5 </span>
+                  </div>
+                </div>
+                <div class="flex items-center justify-between text-sm">
+                  <div class="flex gap-1 items-center">
+                    <img
+                      src="./assets/format-square.svg"
+                      alt="format-icon"
+                      class="w-5 h-5"
+                    />
+                    <span> 529 sqft</span>
+                  </div>
+                  <div class="flex gap-1 items-center">
+                    <img
+                      src="./assets/profile-2user-card.svg"
+                      alt="user-icon"
+                      class="w-5 h-5"
+                    />
+                    <span>3</span>
+                  </div>
+                  <div class="flex gap-1 items-center">
+                    <img
+                      src="./assets/wifi.svg"
+                      alt="wifi-icon"
+                      class="w-5 h-5"
+                    />
+                    <span> 10gb </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="p-4 rounded-full absolute z-10 top-20 -right-7 bg-header text-white"
+          >
+            <img src="./assets/arrow-right.svg" alt="arrow" class="w-6 h-6" />
+          </button>
+        </div>
+      </section>
+
+      <!-- Categories -->
+      <section
+        class="w-full bg-[#141414] flex flex-col items-start py-[50px] px-20"
+      >
+        <div class="w-full flex items-center justify-between">
+          <div class="flex flex-col gap-2 items-start">
+            <h2 class="text-3xl text-white font-bold text-start">Categories</h2>
+            <p class="text-lg font-regular text-[#A8A8AB]">
+              We provide everything
+            </p>
+          </div>
+          <button
+            class="bg-primary rounded-full text-[#141414] px-6 py-3 font-semibold"
+          >
+            Explore All
+          </button>
+        </div>
+
+        <div
+          class="w-full grid grid-cols-4 grid-rows-2 gap-8 text-white mt-[30px]"
+        >
+          <div
+            class="flex gap-4 items-center bg-[#202020] rounded-xl px-5 py-4"
+          >
+            <img src="./assets/microscope.svg" alt="logo" class="w-9 h-9" />
+            <div class="flex flex-col gap-1 items-start">
+              <h2 class="text-white font-bold text-xl">Star Hills</h2>
+              <p class="text-[#A8A8AB] font-normal">18,394</p>
+            </div>
+          </div>
+          <div
+            class="flex gap-4 items-center bg-[#202020] rounded-xl px-5 py-4"
+          >
+            <img src="./assets/buildings.svg" alt="logo" class="w-9 h-9" />
+            <div class="flex flex-col gap-1 items-start">
+              <h2 class="text-white font-bold text-xl">Apartment</h2>
+              <p class="text-[#A8A8AB] font-normal">18,394</p>
+            </div>
+          </div>
+          <div
+            class="flex gap-4 items-center bg-[#202020] rounded-xl px-5 py-4"
+          >
+            <img src="./assets/house-3.svg" alt="logo" class="w-9 h-9" />
+            <div class="flex flex-col gap-1 items-start">
+              <h2 class="text-white font-bold text-xl">Nearby City</h2>
+              <p class="text-[#A8A8AB] font-normal">18,394</p>
+            </div>
+          </div>
+          <div
+            class="flex gap-4 items-center bg-[#202020] rounded-xl px-5 py-4"
+          >
+            <img src="./assets/building-4.svg" alt="logo" class="w-9 h-9" />
+            <div class="flex flex-col gap-1 items-start">
+              <h2 class="text-white font-bold text-xl">Landed House</h2>
+              <p class="text-[#A8A8AB] font-normal">18,394</p>
+            </div>
+          </div>
+          <div
+            class="flex gap-4 items-center bg-[#202020] rounded-xl px-5 py-4"
+          >
+            <img src="./assets/airplane.svg" alt="logo" class="w-9 h-9" />
+            <div class="flex flex-col gap-1 items-start">
+              <h2 class="text-white font-bold text-xl">Airport</h2>
+              <p class="text-[#A8A8AB] font-normal">18,394</p>
+            </div>
+          </div>
+          <div
+            class="flex gap-4 items-center bg-[#202020] rounded-xl px-5 py-4"
+          >
+            <img src="./assets/cup.svg" alt="logo" class="w-9 h-9" />
+            <div class="flex flex-col gap-1 items-start">
+              <h2 class="text-white font-bold text-xl">Awards</h2>
+              <p class="text-[#A8A8AB] font-normal">18,394</p>
+            </div>
+          </div>
+          <div
+            class="flex gap-4 items-center bg-[#202020] rounded-xl px-5 py-4"
+          >
+            <img src="./assets/sun-fog.svg" alt="logo" class="w-9 h-9" />
+            <div class="flex flex-col gap-1 items-start">
+              <h2 class="text-white font-bold text-xl">Sunset</h2>
+              <p class="text-[#A8A8AB] font-normal">18,394</p>
+            </div>
+          </div>
+          <div
+            class="flex gap-4 items-center bg-[#202020] rounded-xl px-5 py-4"
+          >
+            <img src="./assets/element-equal.svg" alt="logo" class="w-9 h-9" />
+            <div class="flex flex-col gap-1 items-start">
+              <h2 class="text-white font-bold text-xl">Others</h2>
+              <p class="text-[#A8A8AB] font-normal">18,394</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Benefits -->
+      <section class="w-full flex gap-24 items-center py-[100px] px-20">
+        <div class="flex-none max-w-[400px] flex-col space-y-8 items-start">
+          <h2
+            class="text-3xl text-white font-bold text-start max-w-[350px] leading-normal"
+          >
+            Huge Benefits That Make You Feel Happier
+          </h2>
+          <div class="flex flex-col space-y-4 items-start text-white">
+            <div class="flex gap-2 items-center">
+              <img
+                src="./assets/tick-circle.svg"
+                alt="check-icon"
+                class="w-8 h-8"
+              />
+              <p class="text-lg font-semibold">
+                Checking faster without depositing
+              </p>
+            </div>
+            <div class="flex gap-2 items-center">
+              <img
+                src="./assets/tick-circle.svg"
+                alt="check-icon"
+                class="w-8 h-8"
+              />
+              <p class="text-lg font-semibold">
+                24/7 security guarding your place
+              </p>
+            </div>
+            <div class="flex gap-2 items-center">
+              <img
+                src="./assets/tick-circle.svg"
+                alt="check-icon"
+                class="w-8 h-8"
+              />
+              <p class="text-lg font-semibold">
+                Fast-internet access without lagging
+              </p>
+            </div>
+            <div class="flex gap-2 items-center">
+              <img
+                src="./assets/tick-circle.svg"
+                alt="check-icon"
+                class="w-8 h-8"
+              />
+              <p class="text-lg font-semibold">
+                High standard of layout of houses
+              </p>
+            </div>
+            <div class="flex gap-2 items-center">
+              <img
+                src="./assets/tick-circle.svg"
+                alt="check-icon"
+                class="w-8 h-8"
+              />
+              <p class="text-lg font-semibold">
+                All other benefits, we promise
+              </p>
+            </div>
+          </div>
+          <div class="flex gap-3 items-center">
+            <button
+              class="bg-primary rounded-full text-[#141414] px-6 py-3 font-semibold flex gap-2 items-center"
+            >
+              <img
+                src="./assets/message-notif.svg"
+                alt="message-icon"
+                class="w-6 h-6"
+              />
+              Call Sales
+            </button>
+            <button
+              class="bg-[#323437] rounded-full text-white px-6 py-3 font-semibold"
+            >
+              All Benefits
+            </button>
+          </div>
+        </div>
+        <div class="grow">
+          <div class="grid grid-cols-2 grid-rows-2 gap-8 text-white">
+            <div class="relative">
+              <img
+                src="./assets/image 6.png"
+                alt="card-image"
+                class="w-full h-[200px] rounded-3xl object-cover"
+              />
+              <div
+                class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-[#050211] to-transparent p-5 rounded-2xl"
+              >
+                <div class="flex items-center justify-between">
+                  <h3 class="text-xl font-bold max-w-[200px]">
+                    House for Office and Living
+                  </h3>
+                  <div class="flex gap-1 items-center">
+                    <img
+                      src="./assets/profile-2user-card.svg"
+                      alt="user-icon"
+                      class="w-5 h-5"
+                    />
+                    <span class="text-sm">18,309</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="relative">
+              <img
+                src="./assets/image 8.png"
+                alt="card-image"
+                class="w-full h-[200px] rounded-3xl object-cover"
+              />
+              <div
+                class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-[#050211] to-transparent p-5 rounded-2xl"
+              >
+                <div class="flex items-center justify-between">
+                  <h3 class="text-xl font-bold max-w-[150px]">
+                    House Nearby with Mall
+                  </h3>
+                  <div class="flex gap-1 items-center">
+                    <img
+                      src="./assets/profile-2user-card.svg"
+                      alt="user-icon"
+                      class="w-5 h-5"
+                    />
+                    <span class="text-sm">84,209</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="relative">
+              <img
+                src="./assets/image 7.png"
+                alt="card-image"
+                class="w-full h-[200px] rounded-3xl object-cover"
+              />
+              <div
+                class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-[#050211] to-transparent p-5 rounded-2xl"
+              >
+                <div class="flex items-center justify-between">
+                  <h3 class="text-xl font-bold max-w-[200px]">
+                    House Historical Building
+                  </h3>
+                  <div class="flex gap-1 items-center">
+                    <img
+                      src="./assets/profile-2user-card.svg"
+                      alt="user-icon"
+                      class="w-5 h-5"
+                    />
+                    <span class="text-sm">22,409</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="relative">
+              <img
+                src="./assets/image 9.png"
+                alt="card-image"
+                class="w-full h-[200px] rounded-3xl object-cover"
+              />
+              <div
+                class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-[#050211] to-transparent p-5 rounded-2xl"
+              >
+                <div class="flex items-center justify-between">
+                  <h3 class="text-xl font-bold max-w-[150px]">
+                    Landed House with Park
+                  </h3>
+                  <div class="flex gap-1 items-center">
+                    <img
+                      src="./assets/profile-2user-card.svg"
+                      alt="user-icon"
+                      class="w-5 h-5"
+                    />
+                    <span class="text-sm">47,583</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonial -->
+      <section
+        class="w-full flex flex-col space-y-8 items-center pb-[100px] px-20"
+      >
+        <div class="flex flex-col gap-2 items-center">
+          <h2 class="text-3xl text-white font-bold text-center">
+            Happy Customers
+          </h2>
+          <p class="text-lg font-regular text-[#A8A8AB]">
+            We’d love to come back again soon
+          </p>
+        </div>
+
+        <div class="w-full grid grid-cols-3 gap-8">
+          <div class="w-fit flex flex-col gap-8">
+            <div
+              class="flex flex-col gap-5 items-start h-fit px-4 py-5 bg-header rounded-3xl"
+            >
+              <div class="flex gap-1 items-center">
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+              </div>
+              <p class="text-lg text-white font-normal">
+                I was not so sure if there was a beautiful bedroom, but it was
+                really great experience.
+              </p>
+              <div class="flex gap-3 items-center">
+                <img
+                  src="./assets/profile-customer.png"
+                  alt="customer-profile"
+                  class="w-14 h-14 rounded-full"
+                />
+                <div class="flex flex-col gap-1 items-start text-white">
+                  <h3 class="text-md font-semibold">Evelin Bie</h3>
+                  <p class="text-sm text-[#A8A8AB] font-normal">
+                    Full-Time Traveler
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex flex-col gap-5 items-start h-fit px-4 py-5 bg-header rounded-3xl"
+            >
+              <div class="flex gap-1 items-center">
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+              </div>
+              <p class="text-lg text-white font-normal">
+                It’s just amazing, will be back.
+              </p>
+              <div class="flex gap-3 items-center">
+                <img
+                  src="./assets/profile-customer.png"
+                  alt="customer-profile"
+                  class="w-14 h-14 rounded-full"
+                />
+                <div class="flex flex-col gap-1 items-start text-white">
+                  <h3 class="text-md font-semibold">Evelin Bie</h3>
+                  <p class="text-sm text-[#A8A8AB] font-normal">
+                    Full-Time Traveler
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex flex-col gap-5 items-start h-fit px-4 py-5 bg-header rounded-3xl"
+            >
+              <div class="flex gap-1 items-center">
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+              </div>
+              <p class="text-lg text-white font-normal">
+                I was not so sure if there was a beautiful bedroom, but it was
+                really great experience.
+              </p>
+              <div class="flex gap-3 items-center">
+                <img
+                  src="./assets/profile-customer.png"
+                  alt="customer-profile"
+                  class="w-14 h-14 rounded-full"
+                />
+                <div class="flex flex-col gap-1 items-start text-white">
+                  <h3 class="text-md font-semibold">Evelin Bie</h3>
+                  <p class="text-sm text-[#A8A8AB] font-normal">
+                    Full-Time Traveler
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-fit flex flex-col gap-8">
+            <div
+              class="flex flex-col gap-5 items-start h-fit px-4 py-5 bg-header rounded-3xl"
+            >
+              <div class="flex gap-1 items-center">
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+              </div>
+              <p class="text-lg text-white font-normal">
+                Price was too low yet luxury.
+              </p>
+              <div class="flex gap-3 items-center">
+                <img
+                  src="./assets/profile-customer.png"
+                  alt="customer-profile"
+                  class="w-14 h-14 rounded-full"
+                />
+                <div class="flex flex-col gap-1 items-start text-white">
+                  <h3 class="text-md font-semibold">Evelin Bie</h3>
+                  <p class="text-sm text-[#A8A8AB] font-normal">
+                    Full-Time Traveler
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex flex-col gap-5 items-start h-fit px-4 py-5 bg-header rounded-3xl"
+            >
+              <div class="flex gap-1 items-center">
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+              </div>
+              <p class="text-lg text-white font-normal">
+                I was not so sure if there was a beautiful bedroom, but it was
+                really great experience.
+              </p>
+              <div class="flex gap-3 items-center">
+                <img
+                  src="./assets/profile-customer.png"
+                  alt="customer-profile"
+                  class="w-14 h-14 rounded-full"
+                />
+                <div class="flex flex-col gap-1 items-start text-white">
+                  <h3 class="text-md font-semibold">Evelin Bie</h3>
+                  <p class="text-sm text-[#A8A8AB] font-normal">
+                    Full-Time Traveler
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex flex-col gap-5 items-start h-fit px-4 py-5 bg-header rounded-3xl"
+            >
+              <div class="flex gap-1 items-center">
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+              </div>
+              <p class="text-lg text-white font-normal">
+                I was not so sure if there was a beautiful bedroom, but it was
+                really great experience.
+              </p>
+              <div class="flex gap-3 items-center">
+                <img
+                  src="./assets/profile-customer.png"
+                  alt="customer-profile"
+                  class="w-14 h-14 rounded-full"
+                />
+                <div class="flex flex-col gap-1 items-start text-white">
+                  <h3 class="text-md font-semibold">Evelin Bie</h3>
+                  <p class="text-sm text-[#A8A8AB] font-normal">
+                    Full-Time Traveler
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-fit flex flex-col gap-8">
+            <div
+              class="flex flex-col gap-5 items-start h-fit px-4 py-5 bg-header rounded-3xl"
+            >
+              <div class="flex gap-1 items-center">
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+              </div>
+              <p class="text-lg text-white font-normal">
+                I was not so sure if there was a beautiful bedroom, but it was
+                really great experience.
+              </p>
+              <div class="flex gap-3 items-center">
+                <img
+                  src="./assets/profile-customer.png"
+                  alt="customer-profile"
+                  class="w-14 h-14 rounded-full"
+                />
+                <div class="flex flex-col gap-1 items-start text-white">
+                  <h3 class="text-md font-semibold">Evelin Bie</h3>
+                  <p class="text-sm text-[#A8A8AB] font-normal">
+                    Full-Time Traveler
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex flex-col gap-5 items-start h-fit px-4 py-5 bg-header rounded-3xl"
+            >
+              <div class="flex gap-1 items-center">
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+              </div>
+              <p class="text-lg text-white font-normal">
+                It’s just amazing, will be back.
+              </p>
+              <div class="flex gap-3 items-center">
+                <img
+                  src="./assets/profile-customer.png"
+                  alt="customer-profile"
+                  class="w-14 h-14 rounded-full"
+                />
+                <div class="flex flex-col gap-1 items-start text-white">
+                  <h3 class="text-md font-semibold">Evelin Bie</h3>
+                  <p class="text-sm text-[#A8A8AB] font-normal">
+                    Full-Time Traveler
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex flex-col gap-5 items-start h-fit px-4 py-5 bg-header rounded-3xl"
+            >
+              <div class="flex gap-1 items-center">
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+                <img src="./assets/star.svg" alt="star-icon" class="w-5 h-5" />
+              </div>
+              <p class="text-lg text-white font-normal">
+                I was not so sure if there was a beautiful bedroom, but it was
+                really great experience.
+              </p>
+              <div class="flex gap-3 items-center">
+                <img
+                  src="./assets/profile-customer.png"
+                  alt="customer-profile"
+                  class="w-14 h-14 rounded-full"
+                />
+                <div class="flex flex-col gap-1 items-start text-white">
+                  <h3 class="text-md font-semibold">Evelin Bie</h3>
+                  <p class="text-sm text-[#A8A8AB] font-normal">
+                    Full-Time Traveler
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer
+        class="w-full bg-header pt-[100px] pb-10 px-20 flex flex-col space-y-12"
+      >
+        <div class="w-full flex items-center">
+          <div class="grow">
+            <div class="grid grid-cols-3 gap-10">
+              <div
+                class="flex flex-col space-y-3 items-start text-md text-white"
+              >
+                <h3 class="font-semibold">Solutions</h3>
+                <p class="text-[#A8A8AB]">Credit Rewards</p>
+                <p class="text-[#A8A8AB]">P2P Renting</p>
+                <p class="text-[#A8A8AB]">Open for Listing</p>
+                <p class="text-[#A8A8AB]">AI Automation</p>
+                <p class="text-[#A8A8AB]">APIs Developer</p>
+              </div>
+              <div
+                class="flex flex-col space-y-3 items-start text-md text-white"
+              >
+                <h3 class="font-semibold">Product</h3>
+                <p class="text-[#A8A8AB]">Featured House</p>
+                <p class="text-[#A8A8AB]">Browse Categories</p>
+                <p class="text-primary font-semibold">Special Awards</p>
+                <p class="text-[#A8A8AB]">Made-In Bandung</p>
+                <p class="text-[#A8A8AB]">Exclusive Style</p>
+              </div>
+              <div
+                class="flex flex-col space-y-3 items-start text-md text-white"
+              >
+                <h3 class="font-semibold">Company</h3>
+                <p class="text-[#A8A8AB]">About Us</p>
+                <p class="text-[#A8A8AB]">Our Investors</p>
+                <p class="text-[#A8A8AB]">Missions 2024</p>
+                <p class="text-[#A8A8AB]">Careers</p>
+                <p class="text-[#A8A8AB]">Media Press</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex-none max-w-[500px] flex-col space-y-8 items-start">
+            <div class="flex flex-col space-y-2 items-start">
+              <h3 class="font-semibold text-white">Subscribe & Free Rewards</h3>
+              <div class="w-full bg-white rounded-full flex items-center">
+                <div class="relative">
+                  <img
+                    src="./assets/sms.svg"
+                    alt="email-icon"
+                    class="w-6 h-6 absolute top-1/2 -translate-y-1/2 left-5"
+                  />
+                  <input
+                    type="email"
+                    placeholder="Email Address"
+                    class="w-full rounded-s-full text-md ml-7 px-[30px] py-3 text-black focus:outline-none"
+                  />
+                </div>
+                <button
+                  class="bg-primary hover:bg-primary/80 transition-all text-[#010101] rounded-full font-semibold text-md px-[30px] py-3 z-10"
+                >
+                  Subscribe
+                </button>
+              </div>
+            </div>
+            <div class="flex flex-col space-y-3 items-start">
+              <h3 class="font-semibold text-white">Change Language</h3>
+              <div class="flex gap-2 items-center">
+                <img src="./assets/uk.svg" alt="uk-flag" class="w-6 h-6" />
+                <p class="text-white">English (UK)</p>
+                <img
+                  src="./assets/arrow-down.svg"
+                  alt="arrow-down"
+                  class="w-5 h-5 ml-2"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <span class="w-full h-[1px] bg-[#353535]"></span>
+        <div class="flex items-center justify-between">
+          <div class="flex gap-2 items-center">
+            <img src="./assets/logo-nidejia.svg" alt="logo" class="w-10 h-10" />
+            <span class="text-2xl font-semibold text-white">Nidejia</span>
+          </div>
+          <p class="text-[#A8A8AB]">
+            All Rights Reserved Nidejia BuildWithAngga 2024
+          </p>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
